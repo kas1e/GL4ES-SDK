@@ -1,7 +1,7 @@
 # GL4ES-SDK
 GL4ES SDK for AmigaOS4
 
-=== What is GL4ES 
+# What is GL4ES 
 
 GL4ES is an OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, with support for Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android and AmigaOS4.
 
@@ -21,7 +21,7 @@ Main site: http://ptitseb.github.io/gl4es/
 
 
 
-=== What is GL4ES SDK for AmigaOS4
+# What is GL4ES SDK for AmigaOS4
 
 GL4ES SDK for AmigaOS4 come not only with gl4es link library, but also with set of other link libraries which help to use it more widely, such as SDL1, SDL2 and GLU.
 
@@ -43,7 +43,7 @@ In other words at the moment in terms of SDL only ready to use static link libs,
 
 
 
-=== How to install
+# How to install
 
 1. Be sure that you have installed original SDL1, SDL2 and OpenGLES2 SDK
 
@@ -64,7 +64,7 @@ One may ask, why remove MiniGL includes, and why not put GL4ES includes to some 
 
 
 
-=== How to use:
+# How to use:
 
 If you want to use pure AmigaOS API + GL (without SDL) , you need to use ogles2 context instead of minigl one. You shouldn't use directly any agl* functions from ogles2.library, but instead their alternatives from gl4es: they have the same name, just before calling original agl* ogles2 function, in wrapper ones done some internal for gl4es things. For developer it is a matter of only adding necessary defines. I rewrote few random minigl examples from minigl distributive to make them works over gl4es and put them to Examples/from_minigl, so you can see how to work with pure AmigaOS4 API + GL4ES.
 
@@ -76,12 +76,14 @@ Remember, that GL4ES can be also controlled via environments a lot (that, of cou
 
 
 
-=== How be up to date:
+# How be up to date:
 
 I hope to update SDK from time to time with newer version of gl4es, SDL1 and SDL2 libraries, but you always can go to https://github.com/ptitSeb/gl4es , and build up2date version yourself. For myself, I do it all on crosscompiler (cygwin) and to build it I just do:
 
 cd gl4es-master
+
 mkdir build
+
 cd build
 
 cmake \
