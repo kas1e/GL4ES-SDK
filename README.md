@@ -5,7 +5,7 @@ GL4ES SDK for AmigaOS4
 
 GL4ES is an OpenGL 2.1/1.5 to GL ES 2.0/1.1 translation library, with support for Pandora, ODroid, OrangePI, CHIP, Raspberry PI, Android and AmigaOS4.
 
-For AmigaOS4 translation done via ogles2.library (written by Daniel "Daytona" Mubener), and which in turn works on top of warp3dnova.library (written by Hans de Ruiter).
+For AmigaOS4 translation done via ogles2.library (written by Daniel "Daytona" Muessener), and which in turn works on top of warp3dnova.library (written by Hans de Ruiter).
 
 Minimum requirements for ogles2.library are 2.8 and for warp3dnova.library it should be 1.65
 
