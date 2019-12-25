@@ -106,7 +106,7 @@ And in build/lib directory you have libGL.a, which you just rename after to libg
 
 
 
-=== Thanks to:
+# Thanks to:
 
 to ptitSeb for gl4es and all his help with everything : https://github.com/ptitSeb/gl4es/
 
