@@ -1,10 +1,12 @@
+![logo](gl4es.png "gl4es logo")
+
 GL4ES - OpenGL for GLES Hardware
 ====
 
 ![gl4es build status](https://api.travis-ci.org/ptitSeb/gl4es.png "gl4es build status") [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=LU8Y2T62ZWFHU)
 
 This is a library provide OpenGL 2.x functionality for GLES2.0 accelerated Hardware (and of course also support OpenGL 1.5 function, sometimes better then when using GLES 1.1 backend)
-There is also support for GLES 1.1 Hardware, emulating OpenGL 1.5, and some OpenGL 2.x+ extensions, but without shaders.
+There is also support for GLES 1.1 Hardware, emulating OpenGL 1.5, and some OpenGL 2.x+ extensions.
 
 GL4ES is known to work on many platform: OpenPandora, ODroid, RaspberryPI (2 and 3 at least), PocketCHIP, "otherfruit"PI (like the OrangePI), Android, x86 and x86_64 Linux (tested using mesa-egl). There is also some WIP support for AmigaOS4, using experimental GLES2 driver for Warp3D.
 
@@ -36,12 +38,14 @@ Status of the GLES2 backend
  * glxgears works, but FlatShade is not implemented (and will probably never be), so it's slightly different then using GLES1.1 or actuel GL hardware
  * GL_TEXTURE_1D, GL_TEXTURE_3D and GL_TEXTURE_RECTANGLE_ARB are not yet supported in shaders (they are supported in fixed pipeline functions), and texture 3D are just a single 2D layer for now.
  * Program that link only a GL_FRAGMENT or GL_VERTEX shader are not supported yet.
+ * Some VBO are used.
 
 Status of the GLES1.1 backend
  * Framebuffer use FRAMEBUFFER_OES extension (that must be present in the GLES 1.1 stack)
  * Lighting doesn't support double-side or color separation
  * FogCoord or Secondary colors are not supported
  * GL_TEXTURE_3D are just a single 2D layer (the 1st layer).
+ * VBO are supported, but they are emulated, even if VBO if supported in GLES1.1 driver
  
 If you use gl4es in your project (as a static or dynamic link), please mention gl4es in you readme / about / whatever.
  
@@ -87,4 +91,4 @@ Some screenshot and youtube links of stuffs that works [here](MEDIA.md)
 Version history
 ----
 
-The change log is [here](CHANGELOG.md)
+The change log is [here](CHANGELOG.md) 
