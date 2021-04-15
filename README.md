@@ -80,6 +80,7 @@ Remember, that GL4ES can be also controlled via environments a lot (that, of cou
 
 I hope to update SDK from time to time with newer version of gl4es, SDL1 and SDL2 libraries, but you always can go to https://github.com/ptitSeb/gl4es , and build up2date version yourself. For myself, I do it all on crosscompiler (cygwin) and to build it I just do:
 
+```
 cd gl4es-master
 
 mkdir build
@@ -101,6 +102,7 @@ cmake \
 ..
 
 make -j4
+```
 
 And in build/lib directory you have libGL.a, which you just rename after to libgl4es.a
 
