@@ -23,24 +23,23 @@ Main site: http://ptitseb.github.io/gl4es/
 
 # What is GL4ES SDK for AmigaOS4
 
-GL4ES SDK for AmigaOS4 come not only with gl4es link library, but also with set of other link libraries which help to use it more widely, such as SDL1, SDL2 and GLU.
+GL4ES SDK for AmigaOS4 comes not only with GL4ES link library but also with a set of other link libraries that help to use it more widely, such as SDL1, SDL2, and GLU.
 
-Currently in the first release of SDK it contains those libraries:
+As of now, SDK v1.2 contains those libraries:
 
-libgl4es.a      : gl4es (r1.974, Sep 7, 2019) : https://github.com/ptitSeb/gl4es 
+libgl4es.a      : gl4es (r2484, Apr 15, 2021) : https://github.com/ptitSeb/gl4es 
+libGLU_gl4es.a  : GLU  (9.0.0,  Apr 15, 2018) : https://github.com/ptitSeb/GLU
+libSDL_gl4es.a  : SDL1  (1.2.16, Jan 3, 2021) : https://github.com/AmigaPorts/SDL/tree/SDL-1.2
+libSDL2_gl4es.a : SDL2 (2.0.14, Apr 10, 2021) : https://github.com/AmigaPorts/SDL/tree/master
 
-libgGLU_gl4es   : GLU  (9.0.0,  Apr 15, 2018) : https://github.com/ptitSeb/GLU
+There is a GitHub repository for GL4ES SDK for AmigaOS4, where you can find current and all older version of SDK: 
 
-libSDL_gl4es.a  : SDL1 (1.2.15, Sep 1, 2019)  : https://github.com/AmigaPorts/SDL/tree/SDL-1.2
+https://github.com/kas1e/GL4ES-SDK/releases/
 
-libSDL2_gl4es.a : SDL2 (2.0.8, Apr 9, 2019)   : https://github.com/AmigaPorts/SDL/tree/master
+As well as there are repositories of SDL1/SDL2 by Capehill with GL4ES changes at top of it:
 
-While actual AmigaOS4 changes are in gl4es & glu repos, SDL1/2 changes related to handling of GL4ES still not on github, as at the moment it's still unclear how to handle that all better:
- - or to put them to original repos and made a way to choose with what support to compile (MiniGL or GL4ES).
- - or to just make separate branches, where remove MiniGL and keep only GL4ES, so that there is no chaos in the repositories.
- - or to find some other clean-to-handle way.
-In other words at the moment in terms of SDL only ready to use static link libs, without actual code changes (in which probably no one interested if everything works)
-
+https://github.com/kas1e/SDL1_GL4ES
+https://github.com/kas1e/SDL2_GL4ES 
 
 
 # How to install
@@ -120,5 +119,5 @@ to Capehill for actual SDL1 and SDL2 ports and all his help with everything: htt
 
 to others for help and tests 
 
-(c) kas1e, 10 sep 2019
+(c) kas1e, 17 April 2021
  

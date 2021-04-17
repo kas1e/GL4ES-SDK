@@ -96,7 +96,7 @@ bool init()
 bool initGL()
 {
 	bool success = true;
-	GLenum error = GL_NO_ERROR;
+	GLenum error = glGetError(); 
 
 	//Initialize Projection Matrix
 	glMatrixMode( GL_PROJECTION );
