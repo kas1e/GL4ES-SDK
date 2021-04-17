@@ -27,9 +27,12 @@ GL4ES SDK for AmigaOS4 comes not only with GL4ES link library but also with a se
 
 As of now, SDK v1.2 contains those libraries:
 
-libgl4es.a      : gl4es (r2484, Apr 15, 2021) : https://github.com/ptitSeb/gl4es 
+libgl4es.a      : gl4es (r2484, Apr 15, 2021) : https://github.com/ptitSeb/gl4es
+
 libGLU_gl4es.a  : GLU  (9.0.0,  Apr 15, 2018) : https://github.com/ptitSeb/GLU
+
 libSDL_gl4es.a  : SDL1  (1.2.16, Jan 3, 2021) : https://github.com/AmigaPorts/SDL/tree/SDL-1.2
+
 libSDL2_gl4es.a : SDL2 (2.0.14, Apr 10, 2021) : https://github.com/AmigaPorts/SDL/tree/master
 
 There is a GitHub repository for GL4ES SDK for AmigaOS4, where you can find current and all older version of SDK: 
@@ -39,6 +42,7 @@ https://github.com/kas1e/GL4ES-SDK/releases/
 As well as there are repositories of SDL1/SDL2 by Capehill with GL4ES changes at top of it:
 
 https://github.com/kas1e/SDL1_GL4ES
+
 https://github.com/kas1e/SDL2_GL4ES 
 
 
